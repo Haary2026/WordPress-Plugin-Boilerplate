@@ -1,39 +1,34 @@
-# Numerous always-ignore extensions
-*.diff
-*.err
-*.orig
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
 *.log
-*.rej
-*.swo
-*.swp
-*.vi
-*~
-*.sass-cache
 
-# OS or Editor folders
-.DS_Store
-Thumbs.db
-.cache
-.project
-.settings
-.tmproj
-*.esproj
-nbproject
-*.sublime-project
-*.sublime-workspace
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
 
-# Dreamweaver added files
-_notes
-dwsync.xml
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
-# Komodo
-*.komodoproject
-.komodotools
+# Keystore files
+*.jks
+*.keystore
 
-# Folders to ignore
-.hg
-.svn
-.CVS
-intermediate
-.idea
-cache
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
